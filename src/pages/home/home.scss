@@ -1,0 +1,59 @@
+page-home {
+    
+    ion-content{
+        background-color: darkgrey;
+    }
+    
+    .logo{
+
+     height:auto;
+     width: auto;
+     margin: auto;
+     display: block;
+    }
+
+    .post{
+       border-radius: 5%;
+       padding-top: 35px;
+       padding-bottom: 35px;
+    }
+
+    .post-title {
+        color: azure;
+        text-align: center;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    
+    .footer-player {
+        //background-image: url('../assets/imgs/player-bg.png');
+        background-color: black;
+        
+    }
+    .bgimage{
+      background-image: url('../assets/imgs/bg1.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    
+    .play-button {
+        width: 5em;
+        height: auto;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .stop-button {
+        width: 5em;
+        height: auto;
+        text-align: center;
+    }
+
+    .post-content{
+        background: #61cfeb;
+    }
+}

@@ -1,0 +1,38 @@
+
+
+<ion-content padding class="bgimage">
+
+<br> 	<br> 	<br> 	<br> 	
+    <h5></h5>
+    	<br> 	<br> 	<br> 	<br> 	<br> <h3></h3><br>	<br> <br>
+       <ion-row center>  
+       <ion-col text-center> 
+    <div class="logo"> <img src="assets/imgs/thelogo.png" width="250" height="125"></div>
+    <br>
+    <div text-center > <h6> All Music Online Radio</h6></div>
+    <div text-center > <h4> Jazz | Calypso | Reggae </h4></div>
+       </ion-col>
+       </ion-row>
+       <br> 
+       <ion-grid >
+    <ion-row style="text-align: center;">
+      <ion-col >
+        <img *ngIf="!showButton" class="play-button" (click)="playStream()"
+        src="assets/imgs/play-button.png">
+        <img *ngIf="showButton" class="stop-button" (click)="stopStream()"
+        src="assets/imgs/stop.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="footer-player">
+  <ion-fab right bottom>
+    <button ion-fab color="primary"><ion-icon name="md-share" ></ion-icon></button>
+    <ion-fab-list side="top">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=www.monarchriseradio.com"><button ion-fab color="primary"><ion-icon name="logo-facebook"></ion-icon></button></a>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-instagram"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-footer>

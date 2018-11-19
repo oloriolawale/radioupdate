@@ -1,0 +1,4 @@
+#Wed Nov 14 11:40:23 WAT 2018
+base.0=/Users/oloriolawale/streamy/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

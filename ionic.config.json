@@ -1,0 +1,7 @@
+{
+  "name": "MR Radio-Ionic3",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
